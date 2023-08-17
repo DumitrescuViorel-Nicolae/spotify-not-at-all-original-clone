@@ -7,5 +7,6 @@
   "arrowParens": "always",
   "bracketSameLine": true,
   "proseWrap": "always",
-  "singleAttributePerLine": true
+  "singleAttributePerLine": true,
+  "printWidth": 80
 }
