@@ -1,5 +1,6 @@
 'use client';
 
+import AuthModal from '@/app/components/AuthModal';
 import Modal from '@/app/components/Modal';
 import { useEffect, useState } from 'react';
 
@@ -16,13 +17,7 @@ const ModalProvider = () => {
 
   return (
     <>
-      <Modal
-        title="test"
-        description="text"
-        isOpen
-        onChange={() => {}}>
-        Ceva
-      </Modal>
+      <AuthModal />
     </>
   );
 };
