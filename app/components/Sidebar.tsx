@@ -31,9 +31,9 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
 
   return (
     <div className="flex h-full">
-      <div className="md-flex flex-col gap-y-2 bg-black h-full w-[300px] p-2">
+      <div className="flex flex-col gap-y-2 bg-black h-full w-[300px] p-2">
         <Box>
-          <div className="flex flex-col gap-y-4 px-5 py-4 my-6">
+          <div className="flex flex-col gap-y-4 px-5 py-4 my-2">
             {routes.map((item) => (
               <SidebarItem
                 key={item.label}
